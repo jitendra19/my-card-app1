@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.githubProfile img {
+  width: 75px;
+  height: 75px;
+}
+.githubProfile .info {
+  display: inline-block;
+  margin-left: 1rem;
+}
+.githubProfile .info .name {
+  font-weight: bold;
+}
+.githubProfile .info .details {
+  /* font-weight: normal; */
+  font-size: 125%;
+}
