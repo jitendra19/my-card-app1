@@ -22,7 +22,7 @@ class App extends Component<AppProps, AppState> {
   }
 
   componentDidMount() {
-    ['jitendra19','gaearon', 'Timer', 'iansu'].forEach((name)=>{
+    ['jitendra19','gaearon', 'Timer', 'iansu', 'ianschmitz'].forEach((name)=>{
       this.addUsername(name);
     });
   }

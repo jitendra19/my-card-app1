@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,19 +12,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.githubProfile {
+  margin-bottom: 1rem;
+  border: none;
+}
 .githubProfile img {
   width: 75px;
   height: 75px;
 }
 .githubProfile .info {
+  text-align: left;
   display: inline-block;
   margin-left: 1rem;
 }
-.githubProfile .info .name {
+.githubProfile .info .title {
   font-weight: bold;
+  font-size: 12px;
+  width: 400px;
 }
 .githubProfile .info .details {
   /* font-weight: normal; */
-  font-size: 125%;
+  /* font-size: 1%; */
+  font-weight: 100;
+  font-size: 12px;
+  max-width: 400px;
 }

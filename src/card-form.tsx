@@ -33,7 +33,7 @@ export default class CardForm extends React.Component<AppProps, AppState> {
           onChange={event => this.setState({ username: event.target.value })}
           // ref={this.username}
         />
-        <button>Add Card</button>
+        <button style={{marginLeft: '1rem'}}>Add Card</button>
       </form>
     );
   }
